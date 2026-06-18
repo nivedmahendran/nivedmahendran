@@ -29,16 +29,18 @@ spec:
 
 ### [ansible-uat](https://github.com/nivedmahendran/ansible-uat)
 
-Production-grade UAT server provisioned entirely through code — Ansible, Docker, K3s, ArgoCD GitOps, monitoring, and logging.
+Production-grade UAT server provisioned entirely through code — Terraform, Ansible, K3s, ArgoCD GitOps, monitoring, logging, and security scanning.
 
 | Layer | Technology |
 |---|---|
+| **Infra Provisioning** | Terraform (Hetzner Cloud) |
 | **Config Mgmt** | Ansible + Vault secrets |
-| **Container** | Docker Compose → K3s (containerd) |
+| **Container Runtime** | Docker, containerd (K3s) |
+| **Orchestration** | K3s v1.35.5 + Helm |
 | **GitOps** | ArgoCD auto-syncs from GitHub |
-| **Ingress** | Traefik + cert-manager (TLS) |
+| **Ingress/TLS** | Traefik + cert-manager |
 | **Monitoring** | Prometheus + Grafana + Loki |
-| **CI/CD** | GitHub Actions auto-deploy |
+| **CI/CD** | GitHub Actions (lint, Trivy scan, deploy) |
 
 ```
 https://63.250.52.122.nip.io
