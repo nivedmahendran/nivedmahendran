@@ -11,7 +11,7 @@ spec:
 ---
 ```
 
-## 🛠 Toolbox
+## Toolbox
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
@@ -25,7 +25,7 @@ spec:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-## 📌 Featured Project
+## Featured Project
 
 ### [ansible-uat](https://github.com/nivedmahendran/ansible-uat)
 
@@ -41,9 +41,9 @@ Production-grade UAT server provisioned entirely through code — Ansible, Docke
 | **CI/CD** | GitHub Actions auto-deploy |
 
 ```
-🌐 https://63.250.52.122.nip.io
-📊 https://63.250.52.122.nip.io:3000  (Grafana)
-🔄 https://63.250.52.122.nip.io:32050 (ArgoCD)
+https://63.250.52.122.nip.io
+https://63.250.52.122.nip.io:3000  (Grafana)
+https://63.250.52.122.nip.io:32050 (ArgoCD)
 ```
 
 ---
