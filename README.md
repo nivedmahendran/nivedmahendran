@@ -43,9 +43,9 @@ Production-grade UAT server provisioned entirely through code — Terraform, Ans
 | **CI/CD** | GitHub Actions (lint, Trivy scan, deploy) |
 
 ```
-https://63.250.52.122.nip.io
-https://63.250.52.122.nip.io:3000  (Grafana)
-https://63.250.52.122.nip.io:32050 (ArgoCD)
+https://__UAT_HOST__
+https://__UAT_HOST__:3000  (Grafana)
+https://__UAT_HOST__:32050 (ArgoCD)
 ```
 
 ---
