@@ -25,11 +25,20 @@ spec:
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-## Featured Project
+## Featured Projects
 
-### [ansible-uat](https://github.com/nivedmahendran/ansible-uat)
+### 🔥 [proxmox-ai-platform](https://github.com/nivedmahendran/proxmox-ai-platform)
+A self-hosted GitOps AI platform on Proxmox — Terraform IaC, a live Kubernetes-based
+stack, GPU/Ollama inference behind a FastAPI gateway, GitHub Actions CI/CD via a
+self-hosted runner, and Prometheus/Grafana observability. Fully deployed and running.
 
-Production-grade UAT server provisioned entirely through code — Terraform, Ansible, K3s, ArgoCD GitOps, monitoring, logging, and security scanning.
+### 🚀 [mlops-platform](https://github.com/nivedmahendran/mlops-platform)
+End-to-end MLOps platform on Kubernetes: MLflow tracking + registry, Argo Workflows
+orchestration, KServe serving, drift monitoring, and automated retraining.
+
+### 🏗 [ansible-uat](https://github.com/nivedmahendran/ansible-uat)
+Production-grade UAT server provisioned entirely through code — Terraform, Ansible,
+K3s, ArgoCD GitOps, monitoring, logging, and security scanning.
 
 | Layer | Technology |
 |---|---|
@@ -42,12 +51,8 @@ Production-grade UAT server provisioned entirely through code — Terraform, Ans
 | **Monitoring** | Prometheus + Grafana + Loki |
 | **CI/CD** | GitHub Actions (lint, Trivy scan, deploy) |
 
-```
-https://__UAT_HOST__
-https://__UAT_HOST__:3000  (Grafana)
-https://__UAT_HOST__:32050 (ArgoCD)
-```
-
 ---
 
-![CI](https://github.com/nivedmahendran/ansible-uat/actions/workflows/deploy.yml/badge.svg)
+More: [kubeadm-proxmox-cluster](https://github.com/nivedmahendran/kubeadm-proxmox-cluster) ·
+[terraform-aws-infra](https://github.com/nivedmahendran/terraform-aws-infra) ·
+[gitops-rollouts](https://github.com/nivedmahendran/gitops-rollouts)
