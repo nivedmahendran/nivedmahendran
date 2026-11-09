@@ -53,6 +53,12 @@ K3s, ArgoCD GitOps, monitoring, logging, and security scanning.
 
 ---
 
+## ✍️ Writing
+
+I write about platform engineering, Kubernetes, GitOps, and self-hosting on
+Substack — **["Nived's Substack"](https://linuxtips.substack.com)** (the
+`opslogs` handle).
+
 More: [kubeadm-proxmox-cluster](https://github.com/nivedmahendran/kubeadm-proxmox-cluster) ·
 [terraform-aws-infra](https://github.com/nivedmahendran/terraform-aws-infra) ·
 [gitops-rollouts](https://github.com/nivedmahendran/gitops-rollouts)
